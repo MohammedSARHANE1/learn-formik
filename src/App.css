@@ -1,0 +1,15 @@
+form{
+  display: grid;
+}
+label{
+  margin-top: 15px;
+}
+input{
+  width: 300px;;
+}
+button{
+  width: 100px;
+}
+#errors{
+  color: red;
+}
