@@ -28,7 +28,7 @@ const validate=values=>{
 }
 const validationSchema=Yup.object({
     name: Yup.string().required('REquired!'),
-    email:Yup.string().email('invalid email email').required('Required'),
+    email:Yup.string().email('invalid email').required('Required'),
     channel:Yup.string().required('REquired!')
 })
 function YoutubeForm() {
